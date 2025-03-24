@@ -1,0 +1,20 @@
+Participants have two dataset options:
+Bring Your Own Data (BYOD) – Use open-source datasets relevant to specific industries or a use case of interest to you or your team (e.g., social networks, cybersecurity, supply chain, healthcare, transportation, etc.). This dataset should be compatible with a graph structure (either already in a graph or convertible to a graph). This data will be loaded into NetworkX (and then persisted to ArangoDB) as one of the steps in the Hackathon. For instance, if you want to explore some publicly-available datasets, consider the following sites:
+
+Stanford Large Network Dataset Collection
+
+Netzschleuder: the network catalogue, repository and centrifuge
+
+Network Repository
+
+Use one of ArangoDB’s Provided Datasets – These are pre-configured graph datasets provided by ArangoDB. Note that these datasets can be loaded directly into ArangoDB, thereby allowing you to skip the “Data Preparation into NetworkX” stage:
+
+Synthea (Medical)
+
+Common Vulnerability Exposures (Cybersecurity)
+
+Flights (Transportation)
+
+GDELT Open Intelligence (Geopolitical)
+
+To streamline development, ArangoDB is providing a sample Jupyter Notebook Template with pre-built placeholders to help structure each and every step of the process.
